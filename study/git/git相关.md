@@ -40,8 +40,10 @@
     
     这将生成一个 SSH 密钥对，其中包含公钥（`id_rsa.pub`）和私钥（`id_rsa`）。按照提示一路按 Enter 键（也可以自定义密码，但是每次拉代码都要输入，建议一路回车）。
     可以指定rsa名称，最后要在config文件中引用。
-    
-2. **查看并复制公钥：** 使用以下命令来查看公钥：
+	    例如：
+	    Host github.com
+		  IdentityFile C:\Users\ZqWrold\.ssh\mygit_rsa
+1. **查看并复制公钥：** 使用以下命令来查看公钥：
     
     bashCopy code
     
